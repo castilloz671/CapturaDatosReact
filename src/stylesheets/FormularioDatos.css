@@ -1,0 +1,77 @@
+/* formulario */
+.form-container {
+  width: 50%;
+  min-height: 470px;
+  background-color: #fff;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-left: 15px;
+}
+
+/*  título del formulario */
+.form-container h2 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/*  etiquetas */
+label {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #666;
+  display: block;
+}
+
+input {
+  margin: 5px 0;
+  width: calc(100% - 30px);
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 15px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* botón de enviar */
+.botones-form {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+.botones-form > input[type="submit"] {
+  width: auto; 
+  padding: 10px 20px;
+  background-color: #1b7dda; 
+  color: #fff; 
+  border: none; 
+  cursor: pointer;
+  margin: 0 5px; 
+}
+
+.botones-form > input[type="submit"]:hover {
+  background-color: #125ea8; 
+}
+
+
+.boton-limpiar {
+  width: auto; 
+  padding: 10px 20px;
+  background-color: #1b7dda; 
+  color: #fff; 
+  border: none; 
+  cursor: pointer;
+  margin: 0 5px; 
+}
+
+.boton-limpiar:hover {
+  background-color: #125ea8; 
+}
